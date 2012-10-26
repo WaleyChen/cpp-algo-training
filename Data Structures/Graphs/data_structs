@@ -1,0 +1,16 @@
+comparisons
+faster to test if (x, y) is in graph: adjacency matrices
+faster to find the degree of a vertex: adjacency list
+less memory on small graphs: adjacency list (m + n) vs. (n^2)
+less memory on big graphs: adjacency matrices (a small win)
+edge insertion of deletion: adjacency lists (m + n) versus (n ^ 2)
+better for most problems: adjacency lists
+
+adjacency matrix
+- n x n matrix
+- M[I, j] = 1 if (i, j) is an edge of G
+- fast answers to "is (i, j) in G?"
+- rapid updates for edge insertion and deletion
+- HOWEVER excessive space for graphs with many vertices and relatively few edges
+
+adjacency list
